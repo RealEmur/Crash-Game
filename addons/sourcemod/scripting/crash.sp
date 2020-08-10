@@ -176,7 +176,7 @@ public Action makeithigher(Handle timer)
 public void ResetIt()
 {
 	CreateTimer(5.0, resettimer);
-	for for(int i = 1; i <= MaxClients; i++)
+	for(int i = 1; i <= MaxClients; i++)
 	{
 		if(onmenu[i] == 1 && IsClientInGame(i) && !IsFakeClient(i))
 		{
