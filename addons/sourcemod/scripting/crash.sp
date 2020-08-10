@@ -7,11 +7,11 @@
 
 public Plugin myinfo = 
 {
-	name = "Crash",
+	name = "Crash Game",
 	author = "Emur",
-	description = "",
+	description = "Crash game for players.",
 	version = "1.0",
-	url = ""
+	url = "https://steamcommunity.com/id/EmurIsTaken/"
 };
 //CVars
 Handle crash_time, crash_max, crash_min;
