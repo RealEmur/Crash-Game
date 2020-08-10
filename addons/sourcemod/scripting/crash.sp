@@ -62,32 +62,32 @@ public Action crash(int client, int args)
 		{
 			CPrintToChat(client, "{darkred}[SM] {default}%t", "Yetersizkredi");
 			return Plugin_Handled;
-	    }
+	   	 }
 	   	else if(bet[client] > GetConVarInt(crash_max))
 		{
 			CPrintToChat(client, "{darkred}[SM] {default}%t", "Yuksekbahis", GetConVarInt(crash_max));
 			return Plugin_Handled;
-	    }
+	   	 }
 	  	else if(bet[client] < GetConVarInt(crash_min))
 	   	{
 	    	CPrintToChat(client, "{darkred}[SM] {default}%t", "Endusukbahis", GetConVarInt(crash_min));
 			return Plugin_Handled;
-	    }
+	    	}
 	   	else
 	   	{
 	    	Store_SetClientCredits(client, Store_GetClientCredits(client) - bet[client]);
 		  	situation[client] = 1;
 		   	CPrintToChat(client, "{darkred}[SM] {default}%t", "bahisbasarili");
 		}   	 
-    }
+    	}
    	else if(situation[client] != 1 )
-    {
+    	{
     	CPrintToChat(client, "{darkred}[SM] {default}%t", "zatenbahis");
-    }
+   	 }
    	else if(isstarted == 1)
-    {
+    	{
     	CPrintToChat(client, "{darkred}[SM] {default}%t", "isstartedd");
-    }
+    	}
    	return Plugin_Stop;
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
