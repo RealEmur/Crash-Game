@@ -1,0 +1,89 @@
+"Phrases"
+{
+	"Yetersizkredi"
+	{
+		"en"	"You don't have enough credits."
+		"tr"	"Yeterli krediye sahip değilsin."
+	}
+	"Yuksekbahis"
+	{
+		"#format" "{1:d}"
+		"en"	"The amount you have entered is higher than the maximum amount. Maximum bet is {1} credits."
+		"tr"	"Girdiğiniz kredi miktarı, girebileceğiniz maksimum tutardan daha fazla. Maksimum bahis miktarı {1} kredidir."
+	}
+	"Endusukbahis"
+	{
+		"#format" "{1:d}"
+		"en"	"The amount you have entered is less than the minimum amount. The minimum bet is {1} credits."
+		"tr"	"Girdiğiniz kredi miktarı, girebileceğiniz minimum tutardan daha az. Minimum bahis miktarı {1} kredidir."
+	}
+	"bahisbasarili"
+	{
+		"en"	"Your bet has been placed successfully. You will see the menu automatically 3 seconds before the crash starts."
+		"tr"	"Bahisin başarıyla alındı. Crash'in  başlamasına 3 saniye kala menüyü otomatik olarak göreceksin."
+	}
+	"zatenbahis"
+	{
+		"en"	"You have already bet."
+		"tr"	"Zaten bahse girdiniz."
+	}
+	"isstartedd"
+	{
+		"en"	"You cannot bet while the game is already on."
+		"tr"	"Oyun başlamışken bahis yapamazsınız."
+	}
+	"sondakika"
+	{
+		"#format"	"{1:d}"
+		"en"	"{default}Last {green}{1} minutes {default}before crash starts."
+		"tr"	"Crash oyununun başlamasına son {green}{1} dakika{default}."
+	}
+	"1dakika"
+	{
+		"en"	"Last {green}1 minute {default}before crash starts."
+		"tr"	"Crash oyununun başlamasına son {green}1 dakika"
+	}
+	"sonsaniye"
+	{
+		"#format"	"{1:d}"
+		"en"	"{default}Last {green}{1} second {default}before crash starts."
+		"tr"	"Crash oyununun başlamasına son {green}{1} saniye."
+	}
+	"basliyoroc"
+	{
+		"en"	"Starting"
+		"tr"	"Başlamasına"
+	}
+	"5xkazandin"
+	{
+		"#format"	"{1:N}, {2:2.2f}, {3:d}"
+		"en"	"{1} won {3} credits with x{2} in crash."
+		"tr"	"{blue}{1} Crash oyununda {default}{2}x ile {green}{3} {default}kredi kazandı."
+	}
+	"1xkazandin"
+	{
+		"#format"	"{1:2.2f}, {2:d}"
+		"en"	"You won {3} credits with x{2} in crash."
+		"tr"	"{default}Crash oyununda {default}{1}x ile {green}{2} {default}kredi kazandın."
+	}
+	"bahisicin"
+	{
+		"en"	"|If you want to bet|"
+		"tr"	"|Bahis yapmak icin|"	
+	}
+	"komut"
+	{
+		"en"	"!Crash <credits>"
+		"tr"	"!Crash <kredi>"		
+	}
+	"bahis"
+	{
+		"en"	"Bet Amount"
+		"tr"	"Bahis"
+	}
+	"kazanilan"
+	{
+		"en"	"Gained"
+		"tr"	"Kazanilan"
+	}
+}
