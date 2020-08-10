@@ -19,10 +19,10 @@ Handle crash_time, crash_max, crash_min;
 //Countdown
 int seconds;
 
-int onmenu[MAXPLAYERS]; //To see is player on the panel or not.
-int situation[MAXPLAYERS]; //To see player's situation in the game.
+int onmenu[MAXPLAYERS + 1]; //To see is player on the panel or not.
+int situation[MAXPLAYERS + 1]; //To see player's situation in the game.
 int isstarted; //To see is game on or not.
-int bet[MAXPLAYERS], totalgained[MAXPLAYERS];
+int bet[MAXPLAYERS + 1], totalgained[MAXPLAYERS + 1];
 float number; //The number that gets higher.
 float x; // The number that is the limit.
 
@@ -96,7 +96,7 @@ public Action maintimer(Handle timer)
 	seconds--;
 	if(seconds == 600 || seconds == 300 || seconds == 60 || seconds == 30 || seconds == 10 || seconds <= 3  && seconds > 0)
 	{
-		for(int i = 1; i < MAXPLAYERS;i++)
+		for(int i = 1; i <= MaxClients; i++)
 		{
 			if(onmenu[i] == 0 && IsClientInGame(i) && !IsFakeClient(i))
 			{
@@ -176,7 +176,7 @@ public Action makeithigher(Handle timer)
 public void ResetIt()
 {
 	CreateTimer(5.0, resettimer);
-	for (int i = 1; i < MAXPLAYERS;i++)
+	for for(int i = 1; i <= MaxClients; i++)
 	{
 		if(onmenu[i] == 1 && IsClientInGame(i) && !IsFakeClient(i))
 		{
@@ -187,7 +187,7 @@ public void ResetIt()
 
 public Action resettimer(Handle timer)
 {
-	for (int i = 1; i < MAXPLAYERS; i++)
+	for (int i = 1; i <= MaxClients; i++)
 	{
 		bet[i] = 0;
    		situation[i] = 0;
