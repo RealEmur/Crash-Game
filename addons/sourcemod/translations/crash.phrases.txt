@@ -1,105 +1,137 @@
 "Phrases"
 {
-	"Yetersizkredi"
-	{
-		"en"	"You don't have enough credits."
-		"tr"	"Yeterli krediye sahip değilsin."
-		"it"	"Non hai abbastanza crediti."
-	}
-	"Yuksekbahis"
-	{
-		"#format" "{1:d}"
-		"en"	"The amount you have entered is higher than the maximum amount. Maximum bet is {1} credits."
-		"tr"	"Girdiğiniz kredi miktarı, girebileceğiniz maksimum tutardan daha fazla. Maksimum bahis miktarı {1} kredidir."
-		"it"	"L'importo che hai inserito è troppo alto. L'importo massimo è di {1} crediti."
-	}
-	"Endusukbahis"
-	{
-		"#format" "{1:d}"
-		"en"	"The amount you have entered is less than the minimum amount. The minimum bet is {1} credits."
-		"tr"	"Girdiğiniz kredi miktarı, girebileceğiniz minimum tutardan daha az. Minimum bahis miktarı {1} kredidir."
-		"it"	"L'importo che hai inserito è troppo basso. L'importo minimo è di {1} crediti."
-	}
-	"bahisbasarili"
-	{
-		"en"	"Your bet has been placed successfully. You will see the menu automatically 3 seconds before the crash starts."
-		"tr"	"Bahisin başarıyla alındı. Crash'in  başlamasına 3 saniye kala menüyü otomatik olarak göreceksin."
-		"it"	"La tua scommessa è stata accettata. Vedrai il menu del crash 3 secondi prima che inizi."
-	}
-	"zatenbahis"
-	{
-		"en"	"You have already bet."
-		"tr"	"Zaten bahse girdiniz."
-		"it"	"Hai già piazzato la tua scommessa."
-	}
-	"isstartedd"
-	{
-		"en"	"You cannot bet while the game is already on."
-		"tr"	"Oyun başlamışken bahis yapamazsınız."
-		"it"	"Il crash è già iniziato, non puoi scommettere ora."
-	}
-	"sondakika"
-	{
-		"#format"	"{1:d}"
-		"en"	"{default}Last {green}{1} minutes {default}before crash starts."
-		"tr"	"Crash oyununun başlamasına son {green}{1} dakika{default}."
-		"it"	"{green}{1} minuti all'inizio del crash."
-	}
-	"1dakika"
-	{
-		"en"	"Last {green}1 minute {default}before crash starts."
-		"tr"	"Crash oyununun başlamasına son {green}1 dakika"
-		"it"	"{green}1 minuto all'inizio del crash."
-	}
-	"sonsaniye"
-	{
-		"#format"	"{1:d}"
-		"en"	"{default}Last {green}{1} second {default}before crash starts."
-		"tr"	"Crash oyununun başlamasına son {green}{1} saniye."
-		"it"	"{green}{1} secondi all'inizio del crash."
-	}
-	"basliyoroc"
-	{
-		"en"	"Starting"
-		"tr"	"Başlamasına"
-		"it"	"Iniziando"
-	}
-	"5xkazandin"
-	{
-		"#format"	"{1:N}, {2:2.2f}, {3:d}"
-		"en"	"{1} won {3} credits with x{2} in crash."
-		"tr"	"{blue}{1} Crash oyununda {default}{2}x ile {green}{3} {default}kredi kazandı."
-		"it"	"{1} ha vinto {3} crediti con x{2} nel crash."
-	}
-	"1xkazandin"
-	{
-		"#format"	"{1:2.2f}, {2:d}"
-		"en"	"You won {3} credits with x{2} in crash."
-		"tr"	"{default}Crash oyununda {default}{1}x ile {green}{2} {default}kredi kazandın."
-		"it"	"Hai vinto {3} crediti con x{2} nel crash."
-	}
-	"bahisicin"
-	{
-		"en"	"|If you want to bet|"
-		"tr"	"|Bahis yapmak icin|"
-		"it"	"|Se vuoi scommettere|"
-	}
-	"komut"
-	{
-		"en"	"!Crash <credits>"
-		"tr"	"!Crash <kredi>"		
-		"it"	"!Crash <crediti>"		
-	}
-	"bahis"
-	{
-		"en"	"Bet Amount"
-		"tr"	"Bahis"
-		"it"	"Puntata"
-	}
-	"kazanilan"
-	{
-		"en"	"Gained"
-		"tr"	"Kazanilan"
-		"it"	"Ottenuto"
-	}
+    "1dakika"
+    {
+        "ru"        "{green}1 минута {default}до начала игры."
+        "it"        "{green}1 minuto all'inizio del crash."
+        "tr"        "Crash oyununun başlamasına son {green}1 dakika"
+        "en"        "Last {green}1 minute {default}before crash starts."
+    }
+
+    "1xkazandin"
+    {
+        "#format"   "{1:2.2f}, {2:d}"
+        "ru"        "Вы выиграли {2} кредитов с коэффициентом x{1}."
+        "it"        "Hai vinto {3} crediti con x{2} nel crash."
+        "tr"        "{default}Crash oyununda {default}{1}x ile {green}{2} {default}kredi kazandın."
+        "en"        "You won {3} credits with x{2} in crash."
+    }
+
+    "5xkazandin"
+    {
+        "#format"   "{1:N}, {2:2.2f}, {3:d}"
+        "ru"        "{1} выиграл {3} кредитов с коэффициентом x{2}."
+        "it"        "{1} ha vinto {3} crediti con x{2} nel crash."
+        "tr"        "{blue}{1} Crash oyununda {default}{2}x ile {green}{3} {default}kredi kazandı."
+        "en"        "{1} won {3} credits with x{2} in crash."
+    }
+
+    "bahis"
+    {
+        "ru"        "Сумма ставки"
+        "it"        "Puntata"
+        "tr"        "Bahis"
+        "en"        "Bet Amount"
+    }
+
+    "bahisbasarili"
+    {
+        "ru"        "Ваша ставка принята! Вы увидите меню автоматически за 3 секунды до начала игры."
+        "it"        "La tua scommessa è stata accettata. Vedrai il menu del crash 3 secondi prima che inizi."
+        "tr"        "Bahisin başarıyla alındı. Crash'in  başlamasına 3 saniye kala menüyü otomatik olarak göreceksin."
+        "en"        "Your bet has been placed successfully. You will see the menu automatically 3 seconds before the crash starts."
+    }
+
+    "bahisicin"
+    {
+        "ru"        "|Сделать ставку|"
+        "it"        "|Se vuoi scommettere|"
+        "tr"        "|Bahis yapmak icin|"
+        "en"        "|If you want to bet|"
+    }
+
+    "basliyoroc"
+    {
+        "ru"        "Начало"
+        "it"        "Iniziando"
+        "tr"        "Başlamasına"
+        "en"        "Starting"
+    }
+
+    "Endusukbahis"
+    {
+        "#format"   "{1:d}"
+        "ru"        "Введенная сумма меньше минимальной суммы. Минимальная ставка составляет {1} кредит(ов)."
+        "it"        "L'importo che hai inserito è troppo basso. L'importo minimo è di {1} crediti."
+        "tr"        "Girdiğiniz kredi miktarı, girebileceğiniz minimum tutardan daha az. Minimum bahis miktarı {1} kredidir."
+        "en"        "The amount you have entered is less than the minimum amount. The minimum bet is {1} credits."
+    }
+
+    "isstartedd"
+    {
+        "ru"        "Вы не можете сделать ставку пока игра идет."
+        "it"        "Il crash è già iniziato, non puoi scommettere ora."
+        "tr"        "Oyun başlamışken bahis yapamazsınız."
+        "en"        "You cannot bet while the game is already on."
+    }
+
+    "kazanilan"
+    {
+        "ru"        "Получить"
+        "it"        "Ottenuto"
+        "tr"        "Kazanilan"
+        "en"        "Gained"
+    }
+
+    "komut"
+    {
+        "ru"        "!Crash <кредиты>"
+        "it"        "!Crash <crediti>"
+        "tr"        "!Crash <kredi>"
+        "en"        "!Crash <credits>"
+    }
+
+    "sondakika"
+    {
+        "#format"   "{1:d}"
+        "ru"        "{green}{1} минут(ы) {default}до начала игры."
+        "it"        "{green}{1} minuti all'inizio del crash."
+        "tr"        "Crash oyununun başlamasına son {green}{1} dakika{default}."
+        "en"        "{default}Last {green}{1} minutes {default}before crash starts."
+    }
+
+    "sonsaniye"
+    {
+        "#format"   "{1:d}"
+        "ru"        "{green}{1} секунд(ы) {default}до начала игры."
+        "it"        "{green}{1} secondi all'inizio del crash."
+        "tr"        "Crash oyununun başlamasına son {green}{1} saniye."
+        "en"        "{default}Last {green}{1} second {default}before crash starts."
+    }
+
+    "Yetersizkredi"
+    {
+        "ru"        "У вас нет достаточно кредитов."
+        "it"        "Non hai abbastanza crediti."
+        "tr"        "Yeterli krediye sahip değilsin."
+        "en"        "You don't have enough credits."
+    }
+
+    "Yuksekbahis"
+    {
+        "#format"   "{1:d}"
+        "ru"        "Введенная сумма превышает максимальную сумму. Максимальная ставка составляет {1} кредит(ов)."
+        "it"        "L'importo che hai inserito è troppo alto. L'importo massimo è di {1} crediti."
+        "tr"        "Girdiğiniz kredi miktarı, girebileceğiniz maksimum tutardan daha fazla. Maksimum bahis miktarı {1} kredidir."
+        "en"        "The amount you have entered is higher than the maximum amount. Maximum bet is {1} credits."
+    }
+
+    "zatenbahis"
+    {
+        "ru"        "Вы уже сделали ставку."
+        "it"        "Hai già piazzato la tua scommessa."
+        "tr"        "Zaten bahse girdiniz."
+        "en"        "You have already bet."
+    }
+
 }
