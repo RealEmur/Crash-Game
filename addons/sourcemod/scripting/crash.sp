@@ -406,7 +406,7 @@ public int crashmenu(Menu menu, MenuAction action, int param1, int param2)
 
 public void OnMapStart()
 {
-	AddFileToDownloadsTable("sound/emurs/crash/sifir.mp3");
+	AddFileToDownloadsTable("sound/emur/crash/sifir.mp3");
 	AddFileToDownloadsTable("sound/emur/crash/kazandi.mp3");
 	PrecacheSound("emur/crash/sifir.mp3");
 	PrecacheSound("emur/crash/kazandi.mp3");
