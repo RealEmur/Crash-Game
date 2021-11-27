@@ -12,11 +12,11 @@
     "1xkazandin"
     {
         "#format"   "{1:2.2f}, {2:d}"
-        "pt"        "Você ganhou {3} crédito(s) com x{2} no crash!"
+        "pt"        "Você ganhou {2} crédito(s) com x{1} no crash!"
         "ru"        "Вы выиграли {2} кредитов с коэффициентом x{1}."
-        "it"        "Hai vinto {3} crediti con x{2} nel crash."
+        "it"        "Hai vinto {2} crediti con x{1} nel crash."
         "tr"        "{default}Crash oyununda {default}{1}x ile {green}{2} {default}kredi kazandın."
-        "en"        "You won {3} credits with x{2} in crash."
+        "en"        "You won {2} credits with x{1} in crash."
     }
 
     "5xkazandin"
@@ -52,7 +52,7 @@
         "pt"        "|Se você quer apostar|"
         "ru"        "|Сделать ставку|"
         "it"        "|Se vuoi scommettere|"
-        "tr"        "|Bahis yapmak icin|"
+        "tr"        "|Bahis yapmak için|"
         "en"        "|If you want to bet|"
     }
 
@@ -96,10 +96,10 @@
     "komut"
     {
         "pt"        "!crash <créditos>"
-        "ru"        "!Crash <кредиты>"
-        "it"        "!Crash <crediti>"
-        "tr"        "!Crash <kredi>"
-        "en"        "!Crash <credits>"
+        "ru"        "!crash <кредиты>"
+        "it"        "!crash <crediti>"
+        "tr"        "!crash <kredi>"
+        "en"        "!crash <credits>"
     }
 
     "sondakika"
